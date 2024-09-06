@@ -1,0 +1,225 @@
+.dropbtn {
+    background-color: rgb(72, 168, 168);
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin-left: 1.5rem;
+    line-height: 1rem;
+    color: black;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: aquamarine;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: azure;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 1.5rem;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: 	#F0F8FF;
+    border-radius: 1.5rem;
+}
+
+.show {
+    display: block;
+}
+
+body {
+    background-image: url("img/rm373batch2-09.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'merriweather', sans-serif;
+    color: aliceblue;
+    margin: 0;
+    padding-bottom: 2.5rem;
+}
+
+header {
+    background-color: azure;
+    line-height: 2rem;
+    position: sticky;
+    top: 0;
+    font-size: .8rem;
+}
+
+header nav {
+    padding: .4rem;
+}
+
+header a:hover {
+    color: cadetblue;
+}
+
+.linkExterno {
+    width: 1rem;
+    padding-left: .2rem;
+}
+
+a {
+    color: rgb(72, 168, 168);
+    text-decoration: none;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 150%;
+    color: azure;
+    margin: 0 1rem 0 1rem;
+}
+
+h3 {
+    color: cadetblue;
+}
+
+.resultados-pesquisa {
+    width: 55rem;
+    overflow-y: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    font-size: .8rem;
+    text-align: left;
+}
+
+.resultados-pesquisa h2 {
+    text-align: center;
+}
+
+.descricao-meta {
+    margin: 0.5rem 0;
+}
+
+.item-resultado {
+    background-color: azure;
+    color: black;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main button {
+    justify-content: center;
+    font-family: 'kanit', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .8rem;
+    border-radius: 2rem;
+    width: 30%;
+    margin: 1rem 0;
+    background-color: rgb(72, 168, 168);
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+main button:hover {
+    background-color: aquamarine;
+}
+
+input {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 70%;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    flex-direction: column;
+    width: 100%;
+    bottom: 0;
+    padding: 0;
+    font-size: .7rem;
+    text-align: center;
+    background-color: azure;
+    color: black;
+}
+
+.ender {
+    font-size: .5rem;
+}
+
+.explicacao {
+    width: 90%;
+    overflow-y: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+}
+
+.explicacao p {
+    text-align: left;
+}
+
+.paragrafo-explicacao {
+    margin-bottom: 3rem;
+}
+
+.explicacao h1 {
+    font-size: 2rem;
+}
+
+.explicacao ul li {
+    text-align: left;
+    margin: 1rem 0;
+}
+
+.explicacao ol li {
+    text-align: left;
+    list-style-type: upper-roman;
+    margin: 1rem 0;
+}
+
+.negrito {
+    font-size: 1rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.tipoIA {
+    list-style-type: none;
+    font-weight: 400;
+}
+
+
+@media (max-width: 910px) {
+    .resultados-pesquisa {
+        width: 90%;
+    }
+}

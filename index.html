@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Search</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/css/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">&#9776</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html">Buscador</a>
+                    <a href="IA.html">O que são IAs?</a>
+                    <a href="https://linktr.ee/vv_bittencourt" target="_blank">Quem sou<img class="linkExterno"
+                            src="assets/css/img/simbolo-de-link-externo.png" alt="link externo"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Descubra, compare e escolha a IA ideal para o seu projeto.</h1>
+            <input type="text" placeholder="Para qual finalidade você precisa de uma IA?🔎" id="campo-pesquisa">
+            <button onclick="pesquisar()">Começar Pesquisa</button>
+        </section>
+
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            2024 AI Search - © All rights reserved
+        </p>
+        <p class="ender"><a
+                href="https://br.freepik.com/vetores-gratis/vetor-de-fundo-de-tecnologia-de-rede-5g-com-linha-digital-azul_17213567.htm#fromView=search&page=1&position=33&uuid=0b3ba8be-a685-4d79-832b-5bf691fe4c6f"
+                target="_blank">Imagem
+                de rawpixel.com no Freepik</a></p>
+    </footer>
+
+
+    <script src="assets/js/dados.js"></script>
+    <script src="assets/js/function.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
