@@ -21,6 +21,8 @@ Aqui está uma lista das tecnologias que usei para construir esta maravilha:
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) Estrutura básica da aplicação com duas páginas:
   - [`index.html`](https://github.com/vitorVBD/buscador-de-IA-imersao-Alura/blob/main/index.html): Contém a página inicial, com o buscador e os resultados.
   - [`IA.html`](https://github.com/vitorVBD/buscador-de-IA-imersao-Alura/blob/main/IA.html): Contém a segunda página, com uma explicação do que é IA, para pessoas que não são familiarizadas com esse tipo de tecnologia também conseguirem aproveitar o projeto!
+
+
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) Estilo e design para deixar tudo com uma carinha bonita.
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) Para fazer as coisas acontecerem! Temos três scripts principais:
